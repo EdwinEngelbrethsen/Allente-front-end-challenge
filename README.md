@@ -51,7 +51,7 @@ Figure 2: Catalog
 ## 🎯 Implementation Requirements
 
 1. Build the front end of the carousel Design. Recommended to use a state management library from React JS. 
-2. Use this simple API as data source: https://*****. On "GET /shows" request it will retun array of show for carousel. 
+2. Use this simple API endpoint as data source: https://stoplight.io/mocks/sci-code/diggit:master/12726515/recommendations. On "GET" request it will retun array of shows for carousel. 
 
 ## 🛠️ Tech Stack
 
