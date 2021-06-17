@@ -11,13 +11,11 @@ const Topbar = () => {
 
                 <div className="searchbar-content">
                     <input className="searchbox" placeholder="Skrive her for å søke..."></input>
-                    <button className="searchIcon">Søk</button>
+                    <button className="search-btn">Søk</button>
                 </div>
 
                 <button className="loginbtn">Logg på</button>
-            </div>
-
-            
+            </div>  
         </div>
     )
 }

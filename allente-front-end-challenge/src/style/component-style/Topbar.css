@@ -11,7 +11,7 @@
 }
 
 .topbar-background {
-    background-color: #1d2e4d;
+    background-color: #081429;
 }
 
 .topbar-contents {
@@ -32,7 +32,40 @@
     position: fixed;
     display: block;
     align-items: center;
-    margin-left: 50%;
+    margin-left: 35%;
+}
+
+.searchbox {
+    text-align: left;
+    color: white;
+    background: none;
+    border: 1px gray solid;
+    padding: 10px;
+    padding-right: 100px;
+    border-radius: 2px;
+}
+
+input, select, textarea{
+    color: #AAAAAA;
+}
+
+.search-btn {
+    postition: fixed;
+    text-align: center;
+    background-color: gray;
+    color: black;
+    border: none;
+    border-radius: 2px; 
+    padding: 10px 35px;
+    cursor: pointer;
+
+    transition-timing-function: ease-in;
+    transition: all 0.4s;
+}
+
+.search-btn:hover {
+    background-color: #777777;
+    color: black;
 }
 
 .loginbtn {
@@ -41,10 +74,12 @@
     margin-right: 70px;
     padding: 10px 15px;
 
-    background-color: #ff7700;
+    background-color: #fd6100;
     border: none;
     color: white;
     text-align: center;
+    border-radius: 2px;
+    cursor: pointer;
 
 }
 
