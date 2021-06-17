@@ -1,0 +1,18 @@
+.banner {
+    margin-top: 90px;
+    width: 100%;
+}
+
+.banner-contents {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    background-color: black;
+}
+
+.banner-img {
+    position: relative;
+    justify-content: center;
+}

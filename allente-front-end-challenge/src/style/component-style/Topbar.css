@@ -1,3 +1,8 @@
+.topbar-background {
+    background-color: #081429;
+
+}
+
 .topbar {
     position: fixed;
     top: 0;
@@ -10,11 +15,7 @@
     transition: all 0.3s;
 }
 
-.topbar-background {
-    background-color: #081429;
-}
-
-.topbar-contents {
+.topbar-content {
     display: flex;
     justify-content: space-between;
 }
@@ -31,8 +32,6 @@
 .searchbar-content {
     position: fixed;
     display: block;
-    align-items: center;
-    margin-left: 35%;
 }
 
 .searchbox {
@@ -70,8 +69,6 @@ input, select, textarea{
 
 .loginbtn {
     position: fixed;
-    right: 0;
-    margin-right: 70px;
     padding: 10px 15px;
 
     background-color: #fd6100;
@@ -80,6 +77,5 @@ input, select, textarea{
     text-align: center;
     border-radius: 2px;
     cursor: pointer;
-
 }
 
