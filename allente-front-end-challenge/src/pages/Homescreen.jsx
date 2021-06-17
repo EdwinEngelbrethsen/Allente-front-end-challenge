@@ -1,11 +1,10 @@
 import React from "react";
+import Topbar from "../components/Topbar";
 
 const Homescreen = () => {
     return (
         <div>
-            {/* Topbar */}
-            <h1>home</h1>
-            <p>this will be the homescreen</p>
+            <Topbar />
 
             {/* Banner */}
 

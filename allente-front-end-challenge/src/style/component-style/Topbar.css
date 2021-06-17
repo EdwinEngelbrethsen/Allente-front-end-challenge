@@ -1,0 +1,50 @@
+.topbar {
+    position: fixed;
+    top: 0;
+    padding: 25px;
+    width: 100%;
+    height: 40px;
+    z-index: 1;
+
+    transition-timing-function: ease-in;
+    transition: all 0.3s;
+}
+
+.topbar-background {
+    background-color: #1d2e4d;
+}
+
+.topbar-contents {
+    display: flex;
+    justify-content: space-between;
+}
+
+.topbar-logo {
+    position: fixed;
+    width: 120px; 
+    left: 0;
+    object-fit: contain;
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+.searchbar-content {
+    position: fixed;
+    display: block;
+    align-items: center;
+    margin-left: 50%;
+}
+
+.loginbtn {
+    position: fixed;
+    right: 0;
+    margin-right: 70px;
+    padding: 10px 15px;
+
+    background-color: #ff7700;
+    border: none;
+    color: white;
+    text-align: center;
+
+}
+
