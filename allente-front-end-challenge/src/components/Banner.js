@@ -1,11 +1,29 @@
 import React from 'react';
+import { useEffect, useState } from 'react';
+import axios from 'axios';
 
-const Banner = () => {
+
+const Banner = ( { imageURL } ) => {
+
+    const [ movie, setMovie ] = useState([]);
+
+    useEffect( () => {
+        const api = "https://stoplight.io/mocks/sci-code/diggit:master/12726515/recommendations";
+        axios.get(api)
+            .then(response => {
+                setMovie(
+                    response.data
+                )
+            })
+            .catch(err => {
+                console.log(err)
+            })
+    }, [])
 
     return (
         <div className="banner">
             <div className="banner-contents">
-                <img className="banner-img" src="https://cd-static2.telenorcdn.net/zuul/dis-api//XWnMIke588y5xfYLkW1KVC69G_M=/813x458/cdn-cd-production.cloud.xstream.dk/thumbnails/2021/05/21/1621583867025427700_video_logo.jpg"/>
+                <img className="banner-img" alt="this is an image" src={movie}/>
             </div>
         </div>
     )
