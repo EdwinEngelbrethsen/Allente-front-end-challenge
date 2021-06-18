@@ -1,18 +1,12 @@
 import React from 'react';
-import {BrowserRouter as Router, Switch, Link, Route} from 'react-router-dom';
-import Homescreen from './pages/Homescreen';
+import Routes from './routes/Routes'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <Router>
-      <Switch>
-        <Route exact path="/">
-          <Homescreen />
-        </Route>
-
-      </Switch>
-    </Router>
-    
+    <div>
+      <Routes />
+    </div>
   );
 }
 

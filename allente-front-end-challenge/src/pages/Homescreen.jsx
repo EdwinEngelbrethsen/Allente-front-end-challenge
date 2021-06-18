@@ -11,12 +11,8 @@ import "../style/component-style/Banner.css"
 const Homescreen = () => {
     return (
         <div>
-            <Topbar />
-
             <Banner />
-
             {/* Row */}
-
             {/* Footer? */}
         </div>
     )
