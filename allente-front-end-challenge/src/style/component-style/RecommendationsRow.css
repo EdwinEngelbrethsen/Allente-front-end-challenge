@@ -1,0 +1,16 @@
+.row {
+    margin-left: 0 !important;
+    display: flex;
+    flex-wrap: nowrap !important;
+    overflow-y: hidden !important;
+    overflow-x: hidden !important;
+    background-color: #060e1d;
+}
+
+
+.weRecommend {
+    color: white;
+    background-color: #060e1d; 
+
+    padding: 30px;
+}
