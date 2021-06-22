@@ -19,9 +19,9 @@ const Homescreen = () => {
 
     useEffect(() => {
         async function fetchData() {
-                const response = await axios.get(requests.fetchTrending)
-                setMovie(response.data.results[
-                    Math.floor(Math.random() * response.data.results.length - 1)
+                const response = await axios.get(requests.fetchRecommendations)
+                setMovie(response.data[
+                    Math.floor(Math.random() * response.data.length - 1)
                 ]);
         return response;
         }
@@ -29,11 +29,11 @@ const Homescreen = () => {
         fetchData();
     }, [])
 
-    console.log(movie.backdrop_path)
+    console.log(movie.images?.background.url)
 
     return (
         <div>
-            <Banner ImageURL={movie.backdrop_path}/>
+            <Banner ImageURL={movie?.images?.background.url}/>
             
             {/* Footer? */}
         </div>
