@@ -22,8 +22,9 @@ const Homescreen = () => {
 
     useEffect(() => {
         async function fetchData() {
-                const response = await axios.get(requests.fetchRecommendations)
+                const response = await axios.get(requests.fetchRecommendations);
                 setMovie(response.data);
+
         return response;
         }
 
