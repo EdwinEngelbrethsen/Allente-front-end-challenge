@@ -7,9 +7,7 @@ const Topbar = () => {
         <div>
             <Navbar style={{background: "#081429"}}>
                 <Navbar.Brand href="/">
-                    <a>
-                        <img className="logo" src="https://img-cdn.b17g.net/b9cdbd69-4bbb-4324-a54e-aaf1fadb3454/Star_None_x300.png" alt="" />
-                    </a>
+                        <img className="logo" alt="" src="https://img-cdn.b17g.net/b9cdbd69-4bbb-4324-a54e-aaf1fadb3454/Star_None_x300.png" />
                 </Navbar.Brand>
 
                 <Form inline style={{marginLeft: "25%"}}>
